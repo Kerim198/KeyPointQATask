@@ -1,0 +1,781 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2504000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T01:14:16.149Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20451000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Login as a standart user",
+        "description": "",
+        "id": "login;login-as-a-standart-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1481000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2397000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enters standart user credentials",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserEntersStandartUserCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3243000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user should be login successfully",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserShouldBeLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1075000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T01:14:47.001Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1485000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login as a locked out user",
+        "description": "",
+        "id": "login;login-as-a-locked-out-user",
+        "after": [
+          {
+            "result": {
+              "duration": 681000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 410000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user enters locked out user credentials",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserEntersLockedOutUserCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user shouldn\u0027t be login and verify error message",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserShouldnTBeLoginAndVerifyErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1012000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T01:14:50.765Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1518000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login as a problem user",
+        "description": "",
+        "id": "login;login-as-a-problem-user",
+        "after": [
+          {
+            "result": {
+              "duration": 750000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 512000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters problem user credentials",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserEntersProblemUserCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user should be login successfully",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserShouldBeLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4809000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T01:14:54.685Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1702000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login as a performance glitch user",
+        "description": "",
+        "id": "login;login-as-a-performance-glitch-user",
+        "after": [
+          {
+            "result": {
+              "duration": 12954000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11248000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user enters performance glitch user credentials",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserEntersPerformanceGlitchUserCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6514000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user should be login successfully 6 second later",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 38
+                }
+              ],
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserShouldBeLoginSuccessfullySecondLater(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3123000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T01:15:32.190Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3789000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 14233000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "the user enters \"standard_user\" and \"\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "the user shouldn\u0027t be login",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1032000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T01:15:53.391Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1602000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 797000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "the user enters \"\" and \"secret_sauce\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "the user shouldn\u0027t be login",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1144000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T01:15:56.858Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1800000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1086000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "the user enters \"\" and \"\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "the user shouldn\u0027t be login",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1096000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T01:16:00.899Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1370000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 689000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "the user enters \"standard_userWRONG\" and \"secret_sauceWRONG\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "the user shouldn\u0027t be login",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1079000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.demoqa.stepDefinitions.LoginStepDef.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T01:16:04.073Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1428000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 647000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "the user enters \"1234?!\" and \"abABZy?)\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "the user shouldn\u0027t be login",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 7
+        }
+      }
+    ]
+  }
+]
